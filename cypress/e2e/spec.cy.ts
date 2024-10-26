@@ -1,5 +1,8 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
+// import { mockState } from '../support/utils/helpers';
+// import { Responses } from '../support/types';
+
+describe('Homepage', () => {
+  it('visits the Homepage', () => {
+    cy.visit('/')
   })
 })
