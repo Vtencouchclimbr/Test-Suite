@@ -5,8 +5,8 @@ interface Question {
   answers: string[];
 }
 
-interface Answers {
+interface Answer {
   [key: string]: Question;
 }
 
-export type { Game, Answers };
+export type { Question, Answer };
