@@ -15,7 +15,8 @@
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build",
     "cypress": "npm run start:dev && npm run test",
-    "test": "npx cypress run --browser electron --headless"
+    "test": "npx cypress run --browser electron --headless",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "keywords": [],
   "author": "",
