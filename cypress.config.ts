@@ -13,8 +13,9 @@ export default defineConfig({
 
   e2e: {
     baseUrl: 'http://localhost:3001',
-    setupNodeEvents(_on, _config) {
+    setupNodeEvents(on, config) {
       // implement node event listeners here
+      console.log(on, config);
     },
   },
 });
