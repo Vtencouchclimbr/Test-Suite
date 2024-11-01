@@ -16,7 +16,7 @@
     "render-build": "npm install && npm run build",
     "cypress": "npm run start:dev && npm run test",
     "test": "npx cypress run --browser electron --headless",
-    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "keywords": [],
   "author": "",
