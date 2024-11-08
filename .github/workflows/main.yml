@@ -33,7 +33,7 @@ jobs:
       - name: 🧰 Install Deps
         run: npm ci
       - name: compnonent test
-        uses: cypress-io/github-acitons@v6
+        uses: cypress-io/github-action@v6
         with: 
           build: npm run build
           start: npm run start
